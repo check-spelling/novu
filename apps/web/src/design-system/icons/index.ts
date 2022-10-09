@@ -54,4 +54,4 @@ export { ChatGradient } from './gradient/ChatGradient';
 export { LevelsGradient } from './gradient/LevelsGradient';
 export { TimerGradient } from './gradient/TimerGradient';
 
-export { Github } from './social/Github';
+export { GitHub } from './social/GitHub';
