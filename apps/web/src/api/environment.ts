@@ -21,7 +21,7 @@ export function updateEmailSettings(payload: { senderEmail: string; senderName: 
 }
 
 export function updateSmsSettings(payload: { authToken: string; accountSid: string; phoneNumber: string }) {
-  return api.put(`/v1/channels/sms/settings`, { twillio: payload });
+  return api.put(`/v1/channels/sms/settings`, { twilio: payload });
 }
 
 export function updateWidgetSettings(payload: { notificationCenterEncryption: boolean | undefined }) {

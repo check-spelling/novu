@@ -66,7 +66,7 @@ export class ChannelsController {
         userId: user._id,
         environmentId: user.environmentId,
         organizationId: user.organizationId,
-        twillio: body.twillio,
+        twilio: body.twilio,
       })
     );
   }

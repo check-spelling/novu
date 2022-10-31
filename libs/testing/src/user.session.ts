@@ -202,7 +202,7 @@ export class UserSession {
     await this.testAgent
       .put('/v1/channels/sms/settings')
       .send({
-        twillio: {
+        twilio: {
           authToken: '123456',
           phoneNumber: '45678',
           accountSid: '123123',

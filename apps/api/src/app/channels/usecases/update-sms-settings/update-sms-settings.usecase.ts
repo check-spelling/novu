@@ -13,9 +13,9 @@ export class UpdateSmsSettings {
       },
       {
         $set: {
-          'channels.sms.twillio.accountSid': command.twillio.accountSid,
-          'channels.sms.twillio.authToken': command.twillio.authToken,
-          'channels.sms.twillio.phoneNumber': command.twillio.phoneNumber,
+          'channels.sms.twilio.accountSid': command.twilio.accountSid,
+          'channels.sms.twilio.authToken': command.twilio.authToken,
+          'channels.sms.twilio.phoneNumber': command.twilio.phoneNumber,
         },
       }
     );

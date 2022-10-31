@@ -13,5 +13,5 @@ export class UpdateSmsSettingsRequestDto {
   @ApiProperty({
     type: Twilio,
   })
-  twillio: Twilio;
+  twilio: Twilio;
 }
