@@ -1,7 +1,7 @@
 import { IsDefined, ValidateNested } from 'class-validator';
 import { EnvironmentWithUserCommand } from '../../../shared/commands/project.command';
 
-class TwillioSettings {
+class TwilioSettings {
   @IsDefined()
   authToken: string;
 
@@ -15,5 +15,5 @@ class TwillioSettings {
 export class UpdateSmsSettingsCommand extends EnvironmentWithUserCommand {
   @IsDefined()
   @ValidateNested()
-  twillio: TwillioSettings;
+  twilio: TwilioSettings;
 }
