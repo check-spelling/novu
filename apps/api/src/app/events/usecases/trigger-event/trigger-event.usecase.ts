@@ -224,7 +224,7 @@ export class TriggerEvent {
         status: LogStatusEnum.ERROR,
         environmentId: command.environmentId,
         organizationId: command.organizationId,
-        text: 'SubscriberId missing in to property',
+        text: 'SubscriberId missing from to property',
         userId: command.userId,
         code: LogCodeEnum.SUBSCRIBER_ID_MISSING,
         raw: {
